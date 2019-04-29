@@ -1,0 +1,160 @@
+
+/* Assignment: Lesson 7 Name: Judy Jean Due: April 19th, 2019*/
+
+/*-----------BASIC SECTION STYLESHEET------*/
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+#splash{
+    height: 1000px;
+    background: url(images/socialmediaphone.jpg) no-repeat center top fixed;
+  	background-size: cover;
+}
+
+#overview{
+    background-color: #E63462;
+    height:1000px;
+    background-size: cover
+}
+
+#video{
+    text-align: center;
+    background-color: #006BA6;
+    height:1000px;
+    background: url(images/square.png) no-repeat center top fixed;
+   	background-size: cover;
+   	color: #DBD56E;
+}
+
+#table{
+    text-align: center;
+    background-color: #DBD56E;
+    height:1000px;
+    background-size: cover
+}
+
+#footer{
+    padding: 20px 0;
+    background-color: #333745;
+    height:1000px;
+    background-size: cover
+}
+/*-------------*/
+/*other styles*/
+/*-------------*/
+
+a:link {
+	font-weight: bold;
+	color: #E63462;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #FE5F55;
+	text-decoration: none;
+}
+a:hover {
+	color: #006BA6;
+}
+
+iframe {
+	float:right;
+	padding-right: 10px;
+	padding-bottom:80p; 
+	margin: 8px;
+}
+
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/*-------------------------------------------------------------*/
+/* ----------------- NAVIGATION BAR STYLES --------------------*/ 
+/*-------------------------------------------------------------*/
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 50px 20px 50px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}
+
+/*---------------------------------------------------------*/
+/* ---------------- TITLE PAGE STYLES ------------------- */
+/*-------------------------------------------------------*/
+#title{
+  width: 100%; 
+  font-family: 'Righteous', sans-serif;
+  color:#DBD56E;
+  font-size: 30px;
+}
+#title-page{
+  width: 100%;
+  padding-top: 550px; /* provides a lot of space above title to view the background image */
+  padding-left: 100px;
+  color: #DBD56E;
+  text-align: right;
+}
+#title-page h1 {
+  font-family: 'Righteous', sans-serif; /* Google Font - see link in head of index.html */
+  font-size: 80px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+}
+#title-page h3 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+/*-----------------------------------------------------------*/
+/* ------------------- FOOTER CREDITS --------------------- */
+/*---------------------------------------------------------*/
+
+#credits {
+  color:#ffffff;
+  text-align: center;	
+}
+
+#credits td {
+	padding: 6px;
+	border: solid #ffffff; 1px; /*inside the table*/
+}
+  
+#credits table{
+  border-width: 3px;
+  border: solid #006BA6 2px; 
+  margin: 0 auto;		/* centers the color palette table */
+}
+#credits p {
+  color:#ffffff;
+  font-size: .8em;
+  margin: 10px 0;
+}
